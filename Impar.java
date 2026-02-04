@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exer{
+public class Impar{
 
   public static void main (String[] args) {
  
