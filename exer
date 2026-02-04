@@ -1,0 +1,26 @@
+/*impar ou par*/
+
+import java.util.Scanner;
+
+public class Exer{
+
+  public static void main (String[] args) {
+ 
+  Scanner in = new Scanner(System.in);
+  
+  int numb;
+  
+  System.out.print("Digite um Numero: ");
+  numb = in.nextInt();
+  
+    if (numb == 0){
+    System.out.print("Numero é ZERO!");
+    }else if (numb % 2 == 0){
+    System.out.print("Numero e PAR!");
+    }else{
+    System.out.print("Numero é IMPAR!");
+    }
+    
+  
+ }
+}
